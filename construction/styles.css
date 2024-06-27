@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Verwende vh statt % */
+    width: 100vw; /* Verwende vw für die Breite, um Konsistenz zu gewährleisten */
+    overflow: hidden;
+    background-image: url('./background_main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+nav {
+    width: 100%;
+    padding-top: 10px 0;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+header {
+    text-align: center;
+    margin: 1em 0;
+    background-color: rgb(102, 150, 205);
+}
+
+nav {
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    padding: 10px 0;
+}
+
+
+main {
+    padding-top: 60px; /
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 1em 0;
+}
+
+
+#container_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+}
+
+#app {
+    width: 30%;
+    height: calc(100% - 100px);
+    background: rgba(103, 95, 95, 0.5);
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#earth_background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    animation: rotate 60s linear infinite; 
+}
+
+
+
+.display-content {
+    position: relative; 
+    z-index: 2;
+    background-color: rgba(117, 111, 111, 0.661);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%vw;
+    height: 95%vh;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(180deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+
