@@ -1,66 +1,25 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cook the World</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
-</head>
-<body>
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navigation</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Recipies
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Europe</a>
-                <a class="dropdown-item" href="#">Asia</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Recipies</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Impressum</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </header>
-    <main>
-        <div class="container_main" id="container-main">
-            <div class="container_content">
-                <img src="/static/assets/images/earth_render.png" alt="earth" class="world_spinning" id="earth_background"></img>
-            </div>container_content
-            <div class="wrapper-content">
-            <div class="display-content">
-                <h1 class="title display-content">Cook the World is under Construction!</h1>
-                <p class="text display content">In future you will find a database of every national dish here</p>
-            </div>
-          </div>
-        </div>
+{% extends "layout.html" %} 
+
+
+
+
+
+
+    {% block main %}
+       
+    <h1 class="title">Welcome to cook-the-world.com</h1>
+    <div class="text">
+        <p>This page is my very first web project. As functionality grows, I will add more features to make it more interactive and fun.</p>
         
-    </main>
-</body>
-</html>
+        <p>For now, you can click on the button below to get a random national dish from around the world. </br >I will add recipies and pictures later. </br >If you find any wrong information or bugs, please be kind and submit this to me.</p>
+        <p>I appreciate any kind of feedback as well!</p>
+        <p>THANK YOU very much for trying out.</p>
+        <div class="button-container">
+        <a href="/about" method="GET"><button class="button" id="checkout" >What's this site about?</button></a>
+        <a href="/app" method="GET"><button class="button" id="btn-get-recipe">Check out a random dish</button></a>
+        </div>
+    </div>
+
+        
+    {% endblock %}
+
