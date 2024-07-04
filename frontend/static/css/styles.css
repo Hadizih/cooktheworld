@@ -158,10 +158,106 @@ main {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+
+
+}
+.app-pre {
+    background-color: var(--button-color-dark);
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
+.country-title {
+    font-size: 2em;
+    font-weight: bold;
+    width:100%;
+    padding-left: 3em;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px;
+    color: var(--background-color-mid-dark);
+}
+
+.dish-container {
+    color: var(--background-color-light);
+    font-size: 1.5em;
+    width:100%;
+    margin-bottom: 1em;
+    margin-left: 9.5em;
+    display: flex;
+}
+
+
+.app-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#recipe-flag {
+    position: relative;
+    margin-left: 0.5em; 
+    margin-top: 1em;
+    width: 100px; 
+    height: auto; 
+    z-index: 1;
+}
+.app-country {
+    font-size: 1.5em; 
+    margin-top: 0.5em; 
+}
+.app-continent { 
+    color: var(--background-color-light);
+    font-size: 1.5em;
+    width:100%;
+    margin-bottom: 1em;
+    margin-left: 9.5em;
+    display: flex;
+}
+.app-dish {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+#cooked-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    display: none;
+}
+
+#btn-google {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 2em 3em;
+}
+
+.dish-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.hr-line {
+    width: 90%;
+    height: 1px;
+    margin: 1em 1em;
+    background-color: var(--background-color-light);
+
+}
 
 @keyframes rotate {
     0% {

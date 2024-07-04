@@ -1,0 +1,232 @@
+country_name,country_code,continent,dish
+Andorra,AD,Europe,Escudella
+United Arab Emirates,AE,Asia,Machbous
+Afghanistan,AF,Asia,Kabuli Pulao
+Antigua and Barbuda,AG,North America,Fungee and Pepperpot
+Anguilla,AI,North America,Unknown national dish
+Albania,AL,Europe,Tavë Kosi
+Armenia,AM,Asia,Khorovats
+Netherlands Antilles,AN,North America,Unknown national dish
+Angola,AO,Africa,Moamba de Galinha
+Antarctica,AQ,Antarctica,Unknown national dish
+Argentina,AR,South America,Asado
+American Samoa,AS,Oceania,Palusami
+Austria,AT,Europe,Wiener Schnitzel
+Australia,AU,Oceania,Pavlova
+Aruba,AW,North America,Keshi Yena
+Åland Islands,AX,Europe,Ålandspannkaka
+Azerbaijan,AZ,Asia,Plov
+Bosnia and Herzegovina,BA,Europe,Ćevapi
+Barbados,BB,North America,Cou-cou and Flying Fish
+Bangladesh,BD,Asia,Biryani
+Belgium,BE,Europe,Moules-frites
+Burkina Faso,BF,Africa,Riz Gras
+Bulgaria,BG,Europe,Banitsa
+Bahrain,BH,Asia,Machboos
+Burundi,BI,Africa,Unknown national dish
+Benin,BJ,Africa,Amiwo
+Bermuda,BM,North America,Unknown national dish
+Brunei Darussalam,BN,Asia,Ambuyat
+Bolivia,BO,South America,Salteñas
+Brazil,BR,South America,Feijoada
+Bahamas,BS,North America,Cracked Conch
+Bhutan,BT,Asia,Ema Datshi
+Botswana,BW,Africa,Seswaa
+Belarus,BY,Europe,Draniki
+Belize,BZ,North America,Boil Up
+Canada,CA,North America,Poutine
+Cocos (Keeling) Islands,CC,Asia,Unknown national dish
+The Democratic Republic Of The Congo,CD,Africa,Mosaka
+Central African Republic,CF,Africa,Unknown national dish
+Congo,CG,Africa,Mosaka
+Switzerland,CH,Europe,Fondue
+Côte D'Ivoire,CI,Africa,Attiéké
+Cook Islands,CK,Oceania,Ika Mata
+Chile,CL,South America,Empanadas
+Cameroon,CM,Africa,Ndolé
+China,CN,Asia,Peking Duck
+Colombia,CO,South America,Arepa
+Costa Rica,CR,North America,Gallo Pinto
+Cuba,CU,North America,Ropa Vieja
+Cape Verde,CV,Africa,Cachupa
+Curaçao,CW,North America,Keshi Yena
+Christmas Island,CX,Asia,Unknown national dish
+Cyprus,CY,Asia,Halloumi
+Czech Republic,CZ,Europe,Svíčková
+Germany,DE,Europe,Sauerbraten
+Djibouti,DJ,Africa,Skoudehkaris
+Denmark,DK,Europe,Smørrebrød
+Dominica,DM,North America,Mountain Chicken
+Dominican Republic,DO,North America,Sancocho
+Algeria,DZ,Africa,Couscous
+Ecuador,EC,South America,Encebollado
+Estonia,EE,Europe,Verivorst
+Egypt,EG,Africa,Koshari
+Western Sahara,EH,Africa,Unknown national dish
+Eritrea,ER,Africa,Zigni
+Spain,ES,Europe,Paella
+Ethiopia,ET,Africa,Doro Wat
+Finland,FI,Europe,Karjalanpaisti
+Fiji,FJ,Oceania,Kokoda
+Falkland Islands (Malvinas),FK,South America,Lamb and mutton
+Federated States of Micronesia,FM,Oceania,Pohnpei Pepper
+Faroe Islands,FO,Europe,Skerpikjøt
+France,FR,Europe,Coq au Vin
+Gabon,GA,Africa,Nyembwe Chicken
+United Kingdom,GB,Europe,Roast Beef and Yorkshire Pudding
+Grenada,GD,North America,Oildown
+Georgia,GE,Asia,Khachapuri
+French Guiana,GF,South America,Awara broth
+Guernsey,GG,Europe,Bean Jar
+Ghana,GH,Africa,Fufu and Light Soup
+Gibraltar,GI,Europe,Calentita
+Greenland,GL,North America,Suaasat
+Gambia,GM,Africa,Domoda
+Guinea,GN,Africa,Poulet Yassa
+Guadeloupe,GP,North America,Colombo
+Equatorial Guinea,GQ,Africa,Succotash
+Greece,GR,Europe,Moussaka
+South Georgia and the South Sandwich Islands,GS,Antarctica,Unknown national dish
+Guatemala,GT,North America,Fiambre
+Guam,GU,Oceania,Kadon Pika
+Guinea-Bissau,GW,Africa,Unknown national dish
+Guyana,GY,South America,Metemgee
+Hong Kong,HK,Asia,Dim Sum
+Honduras,HN,North America,Baleada
+Croatia,HR,Europe,Pašticada
+Haiti,HT,North America,Griot
+Hungary,HU,Europe,Gulyás
+Indonesia,ID,Asia,Nasi Goreng
+Ireland,IE,Europe,Irish Stew
+Israel,IL,Asia,Shakshuka
+Isle of Man,IM,Europe,Spuds and Herrin
+India,IN,Asia,Biryani
+Iraq,IQ,Asia,Masgouf
+Islamic Republic of Iran,IR,Asia,Chelo Kebab
+Iceland,IS,Europe,Hákarl
+Italy,IT,Europe,Pasta
+Jersey,JE,Europe,Jersey Bean Crock
+Jamaica,JM,North America,Ackee and Saltfish
+Jordan,JO,Asia,Mansaf
+Japan,JP,Asia,Sushi
+Kenya,KE,Africa,Nyama Choma
+Kyrgyzstan,KG,Asia,Beshbarmak
+Cambodia,KH,Asia,Amok Trey
+Kiribati,KI,Oceania,Unknown national dish
+Comoros,KM,Africa,Ladu
+Saint Kitts And Nevis,KN,North America,Stewed Saltfish
+Democratic People's Republic of Korea,KP,Asia,Kimchi
+Republic of Korea,KR,Asia,Bulgogi
+Kuwait,KW,Asia,Mutabbaq
+Cayman Islands,KY,North America,Turtle Stew
+Kazakhstan,KZ,Asia,Beshbarmak
+Lao People's Democratic Republic,LA,Asia,Laap
+Lebanon,LB,Asia,Tabbouleh
+Saint Lucia,LC,North America,Green Fig and Saltfish
+Liechtenstein,LI,Europe,Käsknöpfle
+Sri Lanka,LK,Asia,Rice and Curry
+Liberia,LR,Africa,Palm Butter Soup
+Lesotho,LS,Africa,Unknown national dish
+Lithuania,LT,Europe,Cepelinai
+Luxembourg,LU,Europe,Judd mat Gaardebounen
+Latvia,LV,Europe,Rupjmaize
+Libya,LY,Africa,Couscous
+Morocco,MA,Africa,Tagine
+Monaco,MC,Europe,Barbagiuan
+Republic of Moldova,MD,Europe,Mămăligă
+Montenegro,ME,Europe,Kačamak
+Saint Martin,MF,North America,Unknown national dish
+Madagascar,MG,Africa,Romazava
+Marshall Islands,MH,Oceania,Macadamia Nut Pie
+Macedonia,MK,Europe,Tavče Gravče
+Mali,ML,Africa,Unknown national dish
+Myanmar,MM,Asia,Mohinga
+Mongolia,MN,Asia,Khorkhog
+Macao,MO,Asia,Minchi
+Northern Mariana Islands,MP,Oceania,Red Rice
+Martinique,MQ,North America,Colombo
+Mauritania,MR,Africa,Thieboudienne
+Montserrat,MS,North America,Goat Water
+Malta,MT,Europe,Stuffat tal-Fenek
+Mauritius,MU,Africa,Dholl Puri
+Maldives,MV,Asia,Garudhiya
+Malawi,MW,Africa,Chambo
+Mexico,MX,North America,Tacos
+Malaysia,MY,Asia,Nasi Lemak
+Mozambique,MZ,Africa,Peri-Peri Chicken
+Namibia,NA,Africa,Biltong
+New Caledonia,NC,Oceania,Bougna
+Niger,NE,Africa,Djerma Stew
+Norfolk Island,NF,Oceania,Unknown national dish
+Nigeria,NG,Africa,Jollof Rice
+Nicaragua,NI,North America,Gallo Pinto
+Netherlands,NL,Europe,Stamppot
+Norway,NO,Europe,Fårikål
+Nepal,NP,Asia,Dal Bhat
+Nauru,NR,Oceania,Coconut Fish
+Niue,NU,Oceania,Unknown national dish
+New Zealand,NZ,Oceania,Hāngi
+Oman,OM,Asia,Shuwa
+Panama,PA,North America,Sancocho
+Peru,PE,South America,Ceviche
+French Polynesia,PF,Oceania,Poisson Cru
+Papua New Guinea,PG,Oceania,Mumu
+Philippines,PH,Asia,Adobo
+Pakistan,PK,Asia,Biryani
+Poland,PL,Europe,Bigos
+Pitcairn,PN,Oceania,Unknown national dish
+Puerto Rico,PR,North America,Mofongo
+State of Palestine,PS,Asia,Maqluba
+Portugal,PT,Europe,Bacalhau à Brás
+Palau,PW,Oceania,Ulkerl
+Paraguay,PY,South America,Sopa Paraguaya
+Qatar,QA,Asia,Majboos
+Réunion,RE,Africa,Carri
+Romania,RO,Europe,Sarmale
+Serbia,RS,Europe,Pljeskavica
+Russian Federation,RU,Europe,Borscht
+Rwanda,RW,Africa,Ugali
+Saudi Arabia,SA,Asia,Kabsa
+Solomon Islands,SB,Oceania,Poi
+Seychelles,SC,Africa,Grilled Fish
+Sudan,SD,Africa,Kisra
+Sweden,SE,Europe,Meatballs
+Singapore,SG,Asia,Hainanese Chicken Rice
+Saint Helena,SH,Africa,Unknown national dish
+Slovenia,SI,Europe,Kranjska Klobasa
+Slovakia,SK,Europe,Bryndzové Halušky
+Sierra Leone,SL,Africa,Groundnut Stew
+San Marino,SM,Europe,Torta Tre Monti
+Senegal,SN,Africa,Thieboudienne
+Somalia,SO,Africa,Canjeero
+Suriname,SR,South America,Pom
+South Sudan,SS,Africa,Unknown national dish
+Sao Tome and Principe,ST,Africa,Unknown national dish
+El Salvador,SV,North America,Pupusa
+Syrian Arab Republic,SY,Asia,Kibbeh
+Swaziland,SZ,Africa,Siswati Chicken
+Turks and Caicos Islands,TC,North America,Unknown national dish
+Chad,TD,Africa,Boule
+French Southern Territories,TF,Antarctica,Unknown national dish
+Togo,TG,Africa,Fufu
+Thailand,TH,Asia,Pad Thai
+Tajikistan,TJ,Asia,Plov
+Tokelau,TK,Oceania,Unknown national dish
+Timor-Leste,TL,Asia,Ikan Pepes
+Turkmenistan,TM,Asia,Plov
+Tunisia,TN,Africa,Couscous
+Tonga,TO,Oceania,Lu Pulu
+Turkey,TR,Asia,Kebab
+Trinidad and Tobago,TT,North America,Callaloo
+Tuvalu,TV,Oceania,Unknown national dish
+Taiwan,TW,Asia,Beef Noodle Soup
+Tanzania,TZ,Africa,Ugali
+Ukraine,UA,Europe,Borscht
+Uganda,UG,Africa,Matoke
+United States,US,North America,Hamburger
+Uruguay,UY,South America,Chivito
+Uzbekistan,UZ,Asia,Plov
+Holy See (Vatican City State),VA,Europe,Unknown national dish
+Saint Vincent And The Grenadines,VC,North America,Fried Jackfish
+Venezuela,VE,South America,Arepa
+Virgin Islands,VG,North America,Fungi and Fish

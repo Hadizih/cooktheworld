@@ -6,11 +6,46 @@
 
 
     {% block main %}
-       
+    {% if random_country %}
     <div class="app">
+        <div class="app-content">
+            <div class="country-title">
+            {% if random_country.country_flag %}
+            <img class="flag" id="recipe-flag" src= "{{ random_country.country_flag }}">
+            {% endif %}
+            <h1 class="app-country">{{ random_country.country_name }}</h1>
+            </div>
+            <div class="continent-title">
+            <h2 class="app-continent">{{ random_country.continent }}</h2>
+            </div>
+            <div class="hr-line"></div>
+            <div class="dish-container">
+                <div class="dish-title">
+                    <h3 class="app-dish">National dish: <strong>{{ random_country.dish_name }}</strong></h3>
+                    <article class="app-dish-descr">In future you will find a description and the recipe of the dish here. <br> For the moment you are able to search the recipes via google, but I will add them in future.</article>
+                </div>                        
+            </div>
+            <div class="dish-search">
+                <button class="btn-google" id="btn-google" ><a href="https://www.google.com/search?q=recipe+{{ random_country.country_name}}+{{ random_country.dish_name}}" target="_blank">Search recipe on GOOGLE</a></button>
+            </div>
+            <div class="cooked-state" id="cooked-state">"I cooked this dish!"</div> 
+                  
+        </div>
+        <div class="app-button-container">
+            <form action="/app" method="POST" name="getrecipe">
+                <button class="button" id="btn-get-recipe" type="submit">NEW RANDOM DISH</button>
+            </form>
+        </div>
+    </div>
+    {% else %}  
+    <div class="app-pre">
         <h1 class="title-app">Cook the World!</h1>
         <div class="app-content"></div>
         <div class="app-button-container">
-            <button class="button" id="btn-get-recipe">GIVE ME A DISH</button>
+            <form action="/app" method="POST" name="getrecipe">
+                <button class="button" id="btn-get-recipe" type="submit">GIVE ME A DISH</button>
+            </form>
+        </div>
     </div>
+    {% endif %}
     {% endblock %}
