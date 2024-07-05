@@ -15,8 +15,16 @@ def about():
 def ctw_app():
     if request.method == 'POST':
             db_path = './backend/data/cdw-database.db'
-            random_country = Country.get_random_country(db_path)
-            return render_template("app.html", random_country=random_country)
+            name = request.form.get("name")
+            if name:
+                country = Country.get_country_by_name(name, db_path)
+            else:
+                country = Country.get_random_country(db_path)
+            
+            if country:
+                return render_template("app.html", random_country=country)
+            else:
+                return render_template("app.html", error="Country not found")
     
     return render_template("app.html")
 

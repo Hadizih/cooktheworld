@@ -38,6 +38,20 @@ class Country:
         else:
             return None
 
+    @classmethod
+    def get_country_by_name(cls, name, db_path):
+        name = name.capitalize()
+        connection = sqlite3.connect(db_path)
+        cursor = connection.cursor()
+
+        cursor.execute("SELECT country_name, country_code, continent, country_flag, dish_name, cooked FROM countries WHERE country_name = ?", (name,))
+        result = cursor.fetchone()
+        connection.close()
+
+        if result:
+            return cls(*result)
+        else:
+            return None
 
 if __name__ == "__main__":
     main()

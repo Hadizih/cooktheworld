@@ -37,6 +37,16 @@
             </form>
         </div>
     </div>
+    {% elif error %}
+    <div class="app-pre">
+        <h1 class="title-app">Error: {{ error }}</h1>
+        <div class="app-content"></div>
+        <div class="app-button-container">
+            <form action="/app" method="POST" name="getrecipe">
+                <button class="button" id="btn-get-recipe" type="submit">GIVE ME A DISH</button>
+            </form>
+        </div>
+    </div>
     {% else %}  
     <div class="app-pre">
         <h1 class="title-app">Cook the World!</h1>
